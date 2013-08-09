@@ -10,5 +10,5 @@ paginate: 10
 
 # Prose settings
 prose:
- rooturl: "_posts"
- media: "media"
+  rooturl: "_posts"
+  media: "media"
