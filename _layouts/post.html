@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<article class="video">
+  <header>
+    {% if page.image %}
+      <img class="featured-image" src="{{ site.url }}{{ page.image }}" alt="">
+    {% elsif page.vimeoID %}
+        <iframe src="http://player.vimeo.com/video/{{ page.vimeoID }}?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    {% elsif page.youtubeID %}
+        <iframe src="//www.youtube.com/embed/{{ page.youtubeID }}?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+    {% endif %}
+    <h1>{{ page.title }}</h1>
+    <p>
+      {{page.author}}
+
+      om en resa i
+
+      {% for category in page.categories %}
+        {% if forloop.last %}
+        &amp; <span>{{ category | capitalize }}</span>
+        {% else %}
+        <span>{{ category | capitalize }}</span>
+        {% endif %}
+      {% endfor %}
+    </p>
+    <p>{{ page.date | date: '%Y-%m-%d' }}</p>
+  </header>
+  <div class="max-width-txt">
+    {{ content }}
+  </div>
+</article>
+<hr>

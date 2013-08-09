@@ -1,0 +1,8 @@
+name: Turisten
+pygments: true
+url: http://localhost:4000/
+baseurl: /turisten
+exclude: [config.rb, sass]
+permalink: /:year/:month/:title
+timezone: Europe/Stockholm
+paginate: 3
