@@ -15,7 +15,7 @@ prose:
   metadata:
     _posts:
       - name: "title"
-      field:
-        label: "Title"
-        element: "text"
-        value: ""
+        field:
+          label: "Title"
+          element: "text"
+          value: " "
