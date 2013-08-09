@@ -1,12 +1,8 @@
 ---
 published: true
 layout: post
-date: {}
+date: 2011-08-20
 categories: sydkorea
-tags: null
-image: null
-vimeoID: null
-youtubeID: null
 author: Linn
 ---
 
