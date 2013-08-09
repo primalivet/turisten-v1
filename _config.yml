@@ -6,4 +6,4 @@ baseurl: /turisten
 exclude: [config.rb, sass]
 permalink: /:year/:month/:title
 timezone: Europe/Stockholm
-paginate: 3
+paginate: 10
