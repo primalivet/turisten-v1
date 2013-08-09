@@ -4,7 +4,7 @@ title:  "Vägen till Filippinerna"
 date:   2011-11-24
 categories: filippinerna sydkorea
 tags:
-image: assets/images/vagen-till-filippinerna.jpg
+image: media/vagen-till-filippinerna.jpg
 vimeoID:
 youtubeID:
 author: Gustaf

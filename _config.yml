@@ -7,3 +7,45 @@ exclude: [config.rb, sass]
 permalink: /:year/:month/:title
 timezone: Europe/Stockholm
 paginate: 10
+
+# Prose settings
+prose:
+  rooturl: "_posts"
+  media: "media"
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "author"
+          field:
+            element: "select"
+            label: "Author"
+            placeholder: "Who are you?"
+            options:
+              - name: "Gustaf"
+                value: "Gustaf"
+              - name: "Linn"
+                value: "Linn"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Enter the name of the image file (incl. extention)"
+          value: ""
+      - name: "catgories"
+        element: "multiselect"
+        label: "Where were you?"
+        placeholder: "Countries"
+        options:
+          - name: "Sydkorea"
+            value: "sydkorea"
+          - name: "Filippinerna"
+            value: "filippinerna"
+          - name: "Tyskland"
+            value: "tyskland"

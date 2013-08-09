@@ -3,7 +3,6 @@ layout: post
 title:  "Lägenhetsvisning"
 date:   2012-09-05
 categories: sydkorea
-tags:
 image:
 vimeoID: 28598076
 youtubeID:
