@@ -6,13 +6,15 @@ title: Turisten
 {% for post in paginator.posts %}
 
     <article>
-      <header class="max-width-txt">
+      <header>
         {{ if post.image }}
           <img class="featured-image" src="{{ site.baseurl }}/media/{{ post.image }}">
         {{ endif }}
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
         <p>{{ post.date | date: '%Y-%m-%d' }}</p>
-        <p>{{ post.excerpt | truncate: 500 }}</p>
+        <div class="max-width-txt">
+          {{ post.excerpt | truncate: 500 }}
+        </div>
       </header>
       <hr>
     </article>
