@@ -1,4 +1,5 @@
 ---
+layout: post
 published: true
 title: Testing prose
 image: " "
