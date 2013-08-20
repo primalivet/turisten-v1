@@ -22,7 +22,7 @@ prose:
         field:
           element: "text"
           label: "Title"
-          value: " "
+          value: ""
       - name: "country"
         field:
           element: "multiselect"
@@ -39,6 +39,11 @@ prose:
               value: "Australien"
             - name: "sweden"
               value: "Sverige"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image"
+          value: ""
       - name: "author"
         field:
           element: "select"
