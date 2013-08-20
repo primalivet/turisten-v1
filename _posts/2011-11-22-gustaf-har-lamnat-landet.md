@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Gustaf har lämnat landet
 author: Linn
 country: 
