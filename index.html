@@ -7,6 +7,9 @@ title: Turisten
 
     <article>
       <header class="max-width-txt">
+        {{ if post.image }}
+          <img class="featured-image" src="{{ site.baseurl }}/media/{{ post.image }}">
+        {{ endif }}
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
         <p>{{ post.date | date: '%Y-%m-%d' }}</p>
         <p>{{ post.excerpt | truncate: 500 }}</p>
