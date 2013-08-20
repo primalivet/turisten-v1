@@ -39,3 +39,13 @@ prose:
               value: "Australien"
             - name: "sweden"
               value: "Sverige"
+      - name: "author"
+        field:
+          element: "select"
+          label: "Author"
+          placeholder: "Select author"
+          options:
+            - name: "gustaf"
+              value: "Gustaf"
+            - name: "linn"
+              value: "Linn"
