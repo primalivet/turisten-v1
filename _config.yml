@@ -16,6 +16,27 @@ prose:
     _posts:
       - name: "title"
         field:
-          label: "Title"
           element: "text"
+          label: "Title"
+          value: " "
+      - name: "country"
+        field:
+          element: "multiselect"
+          label: "Country"
+          placeholder: "Choose country"
+          options:
+            - name: "southkorea"
+              value: "Sydkorea"
+            - name: "germany"
+              value: "Tyskland"
+            - name: "denmark"
+              value: "Danmark"
+            - name: "australia"
+              value: "Australien"
+            - name: "sweden"
+              value: "Sverige"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image"
           value: " "
