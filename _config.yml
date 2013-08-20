@@ -39,8 +39,3 @@ prose:
               value: "Australien"
             - name: "sweden"
               value: "Sverige"
-      - name: "image"
-        field:
-          element: "text"
-          label: "Image"
-          value: " "
