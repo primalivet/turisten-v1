@@ -1,12 +1,11 @@
 ---
 layout: post
-published: true
 title: Vägen till Filippinerna
 country: 
   - Filippinerna
   - Sydkorea
 author: Gustaf
-image: "vagen-till-filippinerna.jpg"
+image: vagen-till-filippinerna.jpg
 ---
 
 Hej! Som många av er vet har vi tagit en semester från Seoul med destination Sabang Beach på ön Mindoro i Filippinerna.
