@@ -1,0 +1,21 @@
+a {
+  text-decoration: none;
+  &:focus,
+  &:hover {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+  }
+}
+hr {
+  background-color: #ccc;
+}
+.site-title {
+  margin: $base-spacing-unit 0;
+  display: inline-block;
+  a {
+    color: #000;
+  }
+}
+.site-byline {
+  color: #ccc;
+}
