@@ -2,8 +2,8 @@
 layout: post
 title: Gustaf har lämnat landet
 author: Linn
-country: 
-  - Sydkorea
+categories:
+  - sydkorea
 image: gustaf-har-lamnat-landet.jpg
 ---
 

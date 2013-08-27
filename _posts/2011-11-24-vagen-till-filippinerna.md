@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Vägen till Filippinerna
-country: 
-  - Filippinerna
-  - Sydkorea
+categories:
+  - filippinerna
+  - sydkorea
+  - hero
 author: Gustaf
 image: vagen-till-filippinerna.jpg
 ---

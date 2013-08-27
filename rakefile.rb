@@ -4,3 +4,8 @@ task :runwindows do
     puts '* Running Jekyll'
     `jekyll serve --watch --baseurl ""`
 end
+
+task :runosx do
+    puts '* Running Jekyll'
+    `jekyll serve --watch --baseurl ""`
+end

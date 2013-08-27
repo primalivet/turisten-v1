@@ -2,8 +2,8 @@
 layout: post
 title: Midterm Exams
 author: Linn
-country: 
-  - Sydkorea
+categories:
+  - sydkorea
 image: yonsei-host.jpg
 ---
 

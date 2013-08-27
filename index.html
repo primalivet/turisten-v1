@@ -3,22 +3,10 @@ layout: default
 title: Turisten
 ---
 
-{% for post in paginator.posts %}
-
-    <article>
-      <header>
-        {{ if post.image }}
-          <img class="featured-image" src="{{ site.baseurl }}/media/{{ post.image }}">
-        {{ endif }}
-        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-        <p>{{ post.date | date: '%Y-%m-%d' }}</p>
-        <div class="max-width-txt">
-          {{ post.excerpt | truncate: 500 }}
-        </div>
-      </header>
-      <hr>
-    </article>
-
+{% for post in site.categories.hero limit: 1 %}
+  {% include post--hero.html %}
 {% endfor %}
 
-{% include pagination.html %}
+{% for post in site.posts limit: 2 offset: 1 %}
+  {% include post--listed.html %}
+{% endfor %}

@@ -1,0 +1,17 @@
+{{ if post.image }}
+<article>
+  <header class="row reverse-flow">
+    <div class="col col--bp2-three-quarters col--bp3-half">
+      <img class="featured-image" src="{{ site.baseurl }}/media/{{ post.image }}">
+    </div>
+    <div class="col col--bp2-quarter col--bp3-half">
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <p>{{ post.date | date: '%Y-%m-%d' }}</p>
+      <div class="max-width-txt">
+        {{ post.excerpt | truncate: 500 }}
+      </div>
+    </div>
+  </header>
+  <hr>
+</article>
+{{ endif }}

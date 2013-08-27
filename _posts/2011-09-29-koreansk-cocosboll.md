@@ -2,8 +2,8 @@
 layout: post
 title: Koreansk cocosboll
 author: Gustaf
-country: 
-  - Sydkorea
+categories:
+  - sydkorea
 image: koreansk-cocosboll.jpg
 ---
 
