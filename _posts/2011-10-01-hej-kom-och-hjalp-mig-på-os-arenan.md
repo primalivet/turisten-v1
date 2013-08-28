@@ -10,19 +10,19 @@ Tjena, för någon vecka sedan sådär tävlade Yonsei (Linns universitet)  mot 
 
 Oavsett talang får universiteten dock tillgång till OS-arenan för sina “lekar”. Såhär ser det ut när man börjar närma sig!
 
-![](/media/hej-kom-och-hjalp-mig-på-os-arenan-1.jpg)
+![]({{ site.baseurl }}/media/hej-kom-och-hjalp-mig-på-os-arenan-1.jpg)
 
 Den är givetvis större än både Vänersvallen och Sparbanksvallen och såhär ser det ut, röda (Korea University) mot blå ( Yonsei University)
 
-![](/media/hej-kom-och-hjalp-mig-på-os-arenan-2.jpg)
+![]({{ site.baseurl }}/media/hej-kom-och-hjalp-mig-på-os-arenan-2.jpg)
 
 Men trots att studenterna är sjukt många är det inte så att man måste vara rädd om sin plats.
 
-![](/media/hej-kom-och-hjalp-mig-på-os-arenan-3.jpg)
+![]({{ site.baseurl }}/media/hej-kom-och-hjalp-mig-på-os-arenan-3.jpg)
 
 När skolan står för arrangemanget fanns det även bärtz, koreanska Hite slinker ner gott i den ttryckande värmen!
 
-![](/media/hej-kom-och-hjalp-mig-på-os-arenan-4.jpg)
+![]({{ site.baseurl }}/media/hej-kom-och-hjalp-mig-på-os-arenan-4.jpg)
 
 Givetvis har vi placerat oss mitt i den blå klacken!
 
@@ -32,8 +32,8 @@ Baseballmatchen vi kollar på börjar lida mot sitt slut och Yonsei ligger tyvä
 
 Efter matchen gick vi till ett köpcentrum och åkte skrillor :)
 
-![](/media/hej-kom-och-hjalp-mig-på-os-arenan-5.jpg)
+![]({{ site.baseurl }}/media/hej-kom-och-hjalp-mig-på-os-arenan-5.jpg)
 
-![](/media/hej-kom-och-hjalp-mig-på-os-arenan-6.jpg)
+![]({{ site.baseurl }}/media/hej-kom-och-hjalp-mig-på-os-arenan-6.jpg)
 
 Återkommer med mera! Tjo.

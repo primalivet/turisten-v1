@@ -12,7 +12,7 @@ Som rubriken avslöjar var offret denna gång Dobongsan Mountain. Berget ligger 
 
 Hursomhelst startade vi lördagen den 17e September med att dra ihop lite mat i en matlåda samt se till att ryggsäcken var packad med lämpliga nödvändigheter (tankspridd som man är ligger min nya Leatherman multitool i en låda i lägenheten, i Göteborg).
 
-![](/media/dobongsan-mountain-1.jpg)
+![]({{ site.baseurl }}/media/dobongsan-mountain-1.jpg)
 
 Men men, så avancerat blir det nog inte tänker vi. Eftersom vi genom några klick på ett par “random” koreanska länkar, tagit reda på att berget har cirkus 800m fallhöjd. Det är la inte mer än den där kullen dem kallar för Lindvallen.
 
@@ -24,13 +24,13 @@ I detta läget kollar jag o Linn på varandra, säger inget och kollar sedan ned
 
 Skit i det tänker vi och beger oss uppför den gata som ska leda oss till foten av berget. Längs gatan möts man mycket riktigt utav ett myller av sportbutiker, orginal och fake, på ett ställe ligger “The Red Face” och “The North Face” brevid varandra. Och ja, de har samma logotyp :).
 
-![](/media/dobongsan-mountain-2.jpg)
+![]({{ site.baseurl }}/media/dobongsan-mountain-2.jpg)
 
 När denna gata tar slut tar berget vid. Till en början möts vi dock av knackstensplattor längs vandringen Va ä de här tänker vi. Har Koreanerna tagit materialsport till en ny nivå, gå med den utrustningen här, HAAHAHHA!
 
 Skrattar bäst som skrattar sist har aldrig lämpat sig bättre, givetvis har vi tagit många liter vatten över huvudet och det här ska vi få äta upp!
 
-![](/media/dobongsan-mountain-3.jpg)
+![]({{ site.baseurl }}/media/dobongsan-mountain-3.jpg)
 
 Även om det fortfarande går mycket bra de första 300-400 meterna börjar man känna av det lite, detta erkänner vi givetvis inte för varandra och klampar på o bra takt. Men berget blir allt brantare och terrängen utmanande så vi får nog överväga en paus, inte oväntat behövs ett besök på damernas. Efter att ha konsulterat några bergsvaktare fick Linn även tag i papper till det lilla, illaluktande utedasset som de placerat mitt i berget. Jag tar tillfället i akt och flåsar lite mera när hon inte ser. Vid detta laget har vi även fått en ny kamrat, Seth Patric Martin, han är så nära hippie man kan vara men fortfarande ha ett jobb. Japp, givetvis är han lärare i engelska här. Han kör på med massa politiskt bladder och jag börjar ana ugglor i mossen. Han var nog bara arbetslös i USA tror jag. Hursom undrar han om han får hänka på oss ett tag, visst!
 
@@ -50,13 +50,13 @@ Det är heeelt sanslöst gött att vara uppe! Och så fint det är, helt lugnt o
 
 <iframe src="//player.vimeo.com/video/29526631?title=0&amp;byline=0&amp;portrait=0&amp;color=000000" width="500" height="281" frameborder="0"> </iframe>
 
-![](/media/dobongsan-mountain-4.jpg)
+![]({{ site.baseurl }}/media/dobongsan-mountain-4.jpg)
 
-![](/media/dobongsan-mountain-5.jpg)
+![]({{ site.baseurl }}/media/dobongsan-mountain-5.jpg)
 
-![](/media/dobongsan-mountain-6.jpg)
+![]({{ site.baseurl }}/media/dobongsan-mountain-6.jpg)
 
-![](/media/dobongsan-mountain-7.jpg)
+![]({{ site.baseurl }}/media/dobongsan-mountain-7.jpg)
 
 Efter dryga 15 minuter på toppen börjar Seth Patric Martin bli jobbig, han har nu kommit ikapp oss. Trevligt trevligt, men Linn känner att Seth Patric Martin är det sista hon behöver nu, hon är akut bajenödig. Vi måste nedåt, NU!!
 
