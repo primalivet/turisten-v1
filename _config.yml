@@ -12,7 +12,7 @@ paginate: 10
 authors:
   gustaf:
     name: Gustaf
-    avatar: /media/avatar-gustaf.png
+    avatar: avatar-gustaf.png
   linn:
     name: Linn
-    avatar: /media/avatar-linn.png
+    avatar: avatar-linn.png
