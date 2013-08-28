@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Midterm Exams
-author: Linn
+author: linn
 categories:
   - sydkorea
 image: yonsei-host.jpg

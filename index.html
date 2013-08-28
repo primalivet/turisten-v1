@@ -3,10 +3,12 @@ layout: default
 title: Turisten
 ---
 
-{% for post in site.categories.hero limit: 1 %}
-  {% include post--hero.html %}
+{% for post in paginator.posts %}
+  {% if post.image or post.vimeo or post.youtube %}
+    {% include post--listed--media.html %}
+  {% else %}
+    {% include post--listed.html %}
+  {% endif %}
 {% endfor %}
 
-{% for post in site.posts limit: 2 offset: 1 %}
-  {% include post--listed.html %}
-{% endfor %}
+{% include pagination.html %}

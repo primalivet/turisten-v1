@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Koreansk cocosboll
-author: Gustaf
+author: gustaf
 categories:
   - sydkorea
 image: koreansk-cocosboll.jpg

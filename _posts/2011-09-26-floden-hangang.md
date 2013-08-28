@@ -1,0 +1,14 @@
+---
+layout: post
+title: Floden Hangang
+author: gustaf
+categories:
+ - sydkorea
+image: floden-hangang-1.jpg
+---
+
+Hej, nu bjuder vi på ett gäng bilder från floden Hangang som löper genom staden och går precis utanför vår lägenhet!
+
+![](/media/floden-hangang-2.jpg)
+
+![](/media/floden-hangang-3.jpg)

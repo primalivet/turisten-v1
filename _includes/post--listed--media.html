@@ -1,12 +1,20 @@
-<article>
-  <header>
-    {{ if post.image }}
-      <img class="featured-image" src="{{ site.baseurl }}/media/{{ post.image }}">
-    {{ endif }}
-    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-    <p>{{ post.date | date: '%Y-%m-%d' }}</p>
-    <div class="max-width-txt">
-      {{ post.excerpt | truncate: 500 }}
+<article class="container">
+  <header class="row reverse-flow">
+    <div class="col col--bp2-third">
+      {% if post.image %}
+        <img class="featured-image" src="{{ site.baseurl }}/media/{{ post.image }}">
+      {% elsif post.vimeo %}
+        <iframe src="//player.vimeo.com/video/{{ post.vimeo }}?title=0&amp;byline=0&amp;portrait=0&amp;color=000000" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      {% elsif post.youtube %}
+        <iframe src="//www.youtube.com/embed/{{ post.youtube }}?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+      {% endif %}
+    </div>
+    <div class="col col--bp2-two-thirds">
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <p>{{ post.date | date: '%Y-%m-%d' }}</p>
+      <div class="max-width-txt">
+        {{ post.excerpt | truncate: 500 }}
+      </div>
     </div>
   </header>
   <hr>

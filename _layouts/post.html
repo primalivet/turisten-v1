@@ -2,29 +2,26 @@
 layout: default
 ---
 
-<article class="video">
+{% assign author = site.authors[page.author] %}
+
+<article class="container">
   <header>
-    {{ if page.image }}
+    {% if page.image %}
       <img class="featured-image" src="{{ site.baseurl }}/media/{{ page.image }}">
-    {{ endif }}
+    {% elsif page.vimeo %}
+      <iframe src="//player.vimeo.com/video/{{ page.vimeo }}?title=0&amp;byline=0&amp;portrait=0&amp;color=000000" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    {% elsif page.youtube %}
+      <iframe src="//www.youtube.com/embed/{{ page.youtube }}?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+    {% endif %}
     <h1>{{ page.title }}</h1>
-    <p>
-      {{page.author}}
-
-      om en resa i
-
-      {% for country in page.country %}
-        {% if forloop.last %}
-        &amp; <span>{{ country | capitalize }}</span>
-        {% else %}
-        <span>{{ country | capitalize }}</span>
-        {% endif %}
-      {% endfor %}
-    </p>
     <p>{{ page.date | date: '%Y-%m-%d' }}</p>
   </header>
   <div class="max-width-txt">
     {{ content }}
   </div>
+  <footer>
+    <p><img src="{{ author.avatar }}" alt=""></p>
+    <p>Skrivet av {{ author.name }}</p>
+  </footer>
+  <hr>
 </article>
-<hr>

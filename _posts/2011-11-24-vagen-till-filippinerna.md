@@ -4,8 +4,7 @@ title: Vägen till Filippinerna
 categories:
   - filippinerna
   - sydkorea
-  - hero
-author: Gustaf
+author: gustaf
 image: vagen-till-filippinerna.jpg
 ---
 
