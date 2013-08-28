@@ -18,16 +18,16 @@ Vi betsäller in två köttstycken á 150g styck, räcker detta tänker vi? Oja,
 
 Ofta blir vi tagna för att vara amerikaner, om än fel så utmärker vi ju oss i alla lägen som västerlänningar i alla fall. Detta undgår inte heller servitrisen så hon gav oss en kompletterade gaffel innan maten kom in. Dock har jag o Linn bestämt oss för att bli bra på det här med pinnar.
 
-![Linn på "Premium Charcoal Grill"]()
+*Missing image: Linn på Premium Charcoal Grill*
 
 När Linn dock börjar svinga pinnarna bland alla skålar kan jag inte hålla mig för skratt, det kan inte heller servitrisen, de är dock mycket artiga så hon hämtar ett par trä pinnar till Linn, vilket ska vara lättare än de metallpinnar som man oftast får. Hon skrattar lite åt Linn och ger henne träpinnarna medan hon noterar hur jag, problemfritt, hanterar metalpinnarna som om jag inte gjort något annat ;). Detta retar Linn på ett gött sätt och hon sätter fart och gör stora framsteg snabbt! Kommer gå bra detta.
 
 När vi ska till att dokumentera detta kan vi inte hejda oss att göra en klassiker, nämligen foto med servitrisen.
 
-![Gustaf lite rödlätt av alla chilli]()
+*Missing image: Gustaf lite rödlätt av alla chilli*
 
 Min rödlätta hy blir som ni ser inte bättre av konstant 30C, sol och chili. Men med gott humör kör vi vidare och äter tills det verkligen inte går att få ner mera. Vi sträcker lite på benen som blivit stela för vi tagit seden dit vi kommer och satt oss i “skräddare” under hela middagen. I detta läge kommer servitrisen med någon form av grillsnacks. En rå, orensad, ansjovisliknande sak slängs fram på grillen. NEJ NEJ NEJ tänker vi, fyfan!
 
-![Eftersätten]()
+*Missing image: Eftersätten*
 
 Det smakade som det luktade, och det luktade som det ser ut. Fick rysningar i hela kroppen. Men vi provade!
