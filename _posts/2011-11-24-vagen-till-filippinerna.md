@@ -49,3 +49,5 @@ Ungefär 45min in på den 1.5 timma långa färden börjar det dock gå lite sj�
 Skitsamma säger vi och berättar vart vi skall bo, vi är båda helt sjöblöta   och trötta efter båtresan och vill bara komma till hotellet äta och lägga oss. Sagt och gjort är vi i säng på hotellet och på några sekunder somnar vi och laddar för den kommande dagen!
 
 Så jag ska bara knåpa klart nästa inlägg så får ni oxå se hur det var och så ska vi bjuda på lite mera bilder kanske, blev lite fattigt med den varan i detta inlägg :).
+
+*[Man ska inte klaga]({% post_url 2011-12-13-man-ska-inte-klaga %}) är fortsättningen på detta inlägget.*
