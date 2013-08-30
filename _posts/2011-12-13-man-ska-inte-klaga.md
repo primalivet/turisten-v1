@@ -8,7 +8,7 @@ categories:
 
 Då vi möts av strålande sol nästa morgon är vi båda på topp! Speciellt eftersom vi sett att det åskat och regnat massor de senaste månaderna. Vi kommer snabbt upp och ut för att hitta någon göttig frukost och kika runt lite. Linn hann även med att bjuda på semesterns första öl innan klockan 11:00, perfekt :).
 
-*Detta inlägget är fortsättningen på [Vägen till Filippinerna]({% post_url 2011-11-24-vagen-till-filippinerna %}).*
+*__Uppdatering:__ Detta inlägget är fortsättningen på [Vägen till Filippinerna]({% post_url 2011-11-24-vagen-till-filippinerna %}).*
 
 Efter ett par timmar bestämmer vi oss för att hyra en moped i Sabang så att vi kan ta oss runt lite själv, kolla läget liksom.
 

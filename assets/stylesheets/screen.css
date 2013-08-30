@@ -494,14 +494,13 @@ iframe {
 }
 /* line 346, ../sass/_setup.scss */
 .container {
-  width: 95%;
+  width: 100%;
   max-width: 50rem;
-  margin-left: auto;
-  margin-right: auto;
+  overflow: hidden;
 }
 
 /* line 352, ../sass/_setup.scss */
-.limiter {
+.limiter, .container {
   padding-left: 1.3125rem;
   padding-right: 1.3125rem;
 }
@@ -604,32 +603,65 @@ iframe {
 
 /* line 1, ../sass/_base.scss */
 a {
+  color: #000000;
   text-decoration: none;
-}
-/* line 4, ../sass/_base.scss */
-a:focus, a:hover {
   border-bottom-width: 1px;
   border-bottom-style: solid;
 }
 
-/* line 9, ../sass/_base.scss */
+/* line 7, ../sass/_base.scss */
 hr {
   background-color: #ccc;
 }
 
-/* line 12, ../sass/_base.scss */
-.site-title {
-  margin: 1.3125rem 0;
-  display: inline-block;
-}
-/* line 15, ../sass/_base.scss */
-.site-title a {
-  color: #000;
+/* line 10, ../sass/_base.scss */
+.site-header {
+  margin-bottom: 1.3125rem;
+  padding: 0.32813rem 1.3125rem;
+  background-color: #000;
 }
 
+/* line 15, ../sass/_base.scss */
+.site-title {
+  display: inline-block;
+  margin: 0;
+  font-size: 1rem;
+}
 /* line 19, ../sass/_base.scss */
-.site-byline {
-  color: #ccc;
+.site-title a {
+  color: #fff;
+  border: none;
+}
+
+/* line 24, ../sass/_base.scss */
+.avatar {
+  max-width: 6rem;
+  height: auto;
+  margin: auto;
+  border-radius: 50%;
+}
+
+/* line 30, ../sass/_base.scss */
+.detail {
+  font-size: 0.75rem;
+}
+
+/* line 33, ../sass/_base.scss */
+.big-title {
+  line-height: 1.1;
+  font-size: 2rem;
+}
+@media (min-width: 400px) {
+  /* line 33, ../sass/_base.scss */
+  .big-title {
+    font-size: 2.75rem;
+  }
+}
+@media (min-width: 800px) {
+  /* line 33, ../sass/_base.scss */
+  .big-title {
+    font-size: 3.5rem;
+  }
 }
 
 /* line 1, ../sass/syntax.scss */

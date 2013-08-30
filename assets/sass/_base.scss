@@ -1,21 +1,42 @@
 a {
+  color: #000000;
   text-decoration: none;
-  &:focus,
-  &:hover {
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-  }
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
 }
 hr {
   background-color: #ccc;
 }
+.site-header {
+  margin-bottom: $base-spacing-unit;
+  padding: $base-spacing-unit-quarter $base-spacing-unit;
+  background-color: #000;
+}
 .site-title {
-  margin: $base-spacing-unit 0;
   display: inline-block;
+  margin: 0;
+  font-size: 1rem;
   a {
-    color: #000;
+    color: #fff;
+    border: none;
   }
 }
-.site-byline {
-  color: #ccc;
+.avatar {
+  max-width: 6rem;
+  height: auto;
+  margin: auto;
+  border-radius: 50%;
+}
+.detail {
+  font-size: 0.75rem;
+}
+.big-title {
+  line-height: 1.1;
+  font-size: 2rem;
+  @include breakpoint(bp1) {
+    font-size: 2.75rem;
+  }
+  @include breakpoint(bp2) {
+    font-size: 3.5rem;
+  }
 }

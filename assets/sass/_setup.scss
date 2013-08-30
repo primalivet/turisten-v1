@@ -344,10 +344,10 @@ iframe {
 
 @if $use-helpers {
   .container {
-    width: 95%;
+    width: 100%;
     max-width: 50rem;
-    margin-left: auto;
-    margin-right: auto;
+    overflow: hidden;
+    @extend .limiter;
   }
   .limiter {
     padding-left: $base-spacing-unit;

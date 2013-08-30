@@ -4,11 +4,7 @@ title: Turisten
 ---
 
 {% for post in paginator.posts %}
-  {% if post.image or post.vimeo or post.youtube %}
-    {% include post--listed--media.html %}
-  {% else %}
-    {% include post--listed.html %}
-  {% endif %}
+  {% include post--listed.html %}
 {% endfor %}
 
 {% include pagination.html %}
