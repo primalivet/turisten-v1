@@ -89,19 +89,19 @@ html {
   background-color: #ffffff;
   color: #000000;
 }
-@media (min-width: 400px) {
+@media (min-width: 480px) {
   /* line 120, ../sass/_setup.scss */
   html {
     font-size: 0.98438rem;
   }
 }
-@media (min-width: 800px) {
+@media (min-width: 600px) {
   /* line 120, ../sass/_setup.scss */
   html {
     font-size: 1.09375rem;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 780px) {
   /* line 120, ../sass/_setup.scss */
   html {
     font-size: 1.20313rem;
@@ -315,7 +315,7 @@ iframe {
   width: 12.5%;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 480px) {
   /* line 268, ../sass/_setup.scss */
   .row--bp1-full-cols > .col,
   .col--bp1-full {
@@ -374,7 +374,7 @@ iframe {
     width: 12.5%;
   }
 }
-@media (min-width: 800px) {
+@media (min-width: 600px) {
   /* line 268, ../sass/_setup.scss */
   .row--bp2-full-cols > .col,
   .col--bp2-full {
@@ -433,7 +433,7 @@ iframe {
     width: 12.5%;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 780px) {
   /* line 268, ../sass/_setup.scss */
   .row--bp3-full-cols > .col,
   .col--bp3-full {
@@ -607,33 +607,34 @@ a {
   text-decoration: none;
   border-bottom-width: 1px;
   border-bottom-style: solid;
+  border-bottom-color: #ccc;
 }
 
-/* line 7, ../sass/_base.scss */
+/* line 8, ../sass/_base.scss */
 hr {
   background-color: #ccc;
 }
 
-/* line 10, ../sass/_base.scss */
+/* line 11, ../sass/_base.scss */
 .site-header {
   margin-bottom: 1.3125rem;
   padding: 0.32813rem 1.3125rem;
   background-color: #000;
 }
 
-/* line 15, ../sass/_base.scss */
+/* line 16, ../sass/_base.scss */
 .site-title {
   display: inline-block;
   margin: 0;
   font-size: 1rem;
 }
-/* line 19, ../sass/_base.scss */
+/* line 20, ../sass/_base.scss */
 .site-title a {
   color: #fff;
   border: none;
 }
 
-/* line 24, ../sass/_base.scss */
+/* line 25, ../sass/_base.scss */
 .avatar {
   max-width: 6rem;
   height: auto;
@@ -641,26 +642,26 @@ hr {
   border-radius: 50%;
 }
 
-/* line 30, ../sass/_base.scss */
+/* line 31, ../sass/_base.scss */
 .detail {
   font-size: 0.75rem;
 }
 
-/* line 33, ../sass/_base.scss */
+/* line 34, ../sass/_base.scss */
 .big-title {
   line-height: 1.1;
   font-size: 2rem;
 }
-@media (min-width: 400px) {
-  /* line 33, ../sass/_base.scss */
-  .big-title {
-    font-size: 2.75rem;
-  }
-}
-@media (min-width: 800px) {
-  /* line 33, ../sass/_base.scss */
+@media (min-width: 480px) {
+  /* line 34, ../sass/_base.scss */
   .big-title {
     font-size: 3.5rem;
+  }
+}
+@media (min-width: 600px) {
+  /* line 34, ../sass/_base.scss */
+  .big-title {
+    font-size: 4.5rem;
   }
 }
 

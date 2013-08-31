@@ -50,4 +50,4 @@ Skitsamma säger vi och berättar vart vi skall bo, vi är båda helt sjöblöta
 
 Så jag ska bara knåpa klart nästa inlägg så får ni oxå se hur det var och så ska vi bjuda på lite mera bilder kanske, blev lite fattigt med den varan i detta inlägg :).
 
-*__Uppdatering:__ [Man ska inte klaga]({% post_url 2011-12-13-man-ska-inte-klaga %}) är fortsättningen på detta inlägget.*
+*__Uppdatering:__ [Man ska inte klaga]({{ site.baseurl }}{% post_url 2011-12-13-man-ska-inte-klaga %}) är fortsättningen på detta inlägget.*
