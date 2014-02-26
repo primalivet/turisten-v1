@@ -4,7 +4,28 @@ title: Turisten
 ---
 
 {% for post in paginator.posts %}
-  {% include post--listed.html %}
+  {% assign author = site.authors[post.author] %}
+  <div class="excerpt">
+    <p class="excerpt__date">{{ post.date | date: '%Y-%m-%d' }}</p>
+    <h1 class="excerpt__title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    <h2 class="excerpt__author">{{ author.name }}</h2>
+  </div>
 {% endfor %}
 
-{% include pagination.html %}
+<nav>
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+      <a href="{{ site.baseurl }}/">Previous</a>
+    {% else %}
+      <a href="{{ site.baseurl }}/page{{ paginator.previous_page }}">Previous</a>
+    {% endif %}
+  {% else %}
+    Previous
+  {% endif %}
+
+  {% if paginator.next_page %}
+    <a href="{{ site.baseurl }}/page{{ paginator.next_page }}">Next</a>
+  {% else %}
+    Next
+  {% endif %}
+</nav>

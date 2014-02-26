@@ -4,27 +4,18 @@ layout: default
 
 {% assign author = site.authors[page.author] %}
 
-<article class="container">
+<article>
   <header>
     {% if page.image %}
-      <img class="featured-image" src="{{ site.baseurl }}/media/{{ page.image }}">
+      <img src="{{ site.baseurl }}/media/{{ page.image }}">
     {% elsif page.vimeo %}
       <iframe src="//player.vimeo.com/video/{{ page.vimeo }}?title=0&amp;byline=0&amp;portrait=0&amp;color=000000" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     {% elsif page.youtube %}
       <iframe src="//www.youtube.com/embed/{{ page.youtube }}?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
     {% endif %}
-    <h1 class="big-title">{{ page.title }}</h1>
+    <h1>{{ page.title }}</h1>
   </header>
-  <div class="row">
-    <div class="col col--bp2-three-quarters">
-      <div class="max-width-txt">
-        {{ content }}
-      </div>
-    </div>
-    <footer class="col col--bp2-quarter">
-      <p><img class="avatar" src="{{ site.baseurl }}/media/{{ author.avatar }}" alt=""></p>
-      <p class="detail faded center-txt">Publicerat: {{ page.date | date: '%Y-%m-%d' }} <br> av {{ author.name }}.</p>
-    </footer>
-  </div>
-  <hr>
+  {{ content }}
+  <img class="avatar" src="{{ site.baseurl }}/media/{{ author.avatar }}" alt="">
+  <p>Publicerat: {{ page.date | date: '%Y-%m-%d' }} <br> av {{ author.name }}.</p>
 </article>

@@ -3,10 +3,10 @@ safe: true
 lsi: false
 pygments: true
 baseurl: /turisten
-exclude: [config.rb, sass]
+exclude: [node_modules, bower_components, assets/javascripts, assets/stylesheets]
 permalink: /:year/:month/:title
 timezone: Europe/Stockholm
-paginate: 10
+paginate: 15
 
 # Authors
 authors:

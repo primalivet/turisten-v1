@@ -1,6 +1,6 @@
 ---
 layout: post
-title:
+title: Chungju Lake
 author: linn
 categories:
   - sydkorea

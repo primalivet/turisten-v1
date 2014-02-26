@@ -1,0 +1,24 @@
+{
+  "name": "turisten",
+  "version": "0.0.1",
+  "homepage": "primalivet.com/turisten/",
+  "authors": [
+    "Gustaf Holm"
+  ],
+  "description": "Personal travel blog",
+  "main": "index.html",
+  "keywords": [
+    "travel",
+    "photos",
+    "blog"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
