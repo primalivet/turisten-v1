@@ -1,0 +1,42 @@
+//-----------------------------------------------------------------------------
+// Base
+//-----------------------------------------------------------------------------
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: @base-line-height;
+  font-family: @text-font;
+}
+
+p, ul, ol, dl, table {
+  padding: 0;
+  margin: 0 0 @base-size;
+}
+
+blockquote, li {
+  margin: 0 0 0 @base-size;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  line-height: @header-line-height;
+  font-weight: 800;
+  margin-top: @base-size;
+  margin-bottom: @size-quarter;
+  text-transform: uppercase;
+  letter-spacing: -0.025em;
+}
+
+h1 { font-size: @h1-font-size; }
+h2 { font-size: @h2-font-size; }
+h3 { font-size: @h3-font-size; }
+h4 { font-size: @h4-font-size; }
+h5 { font-size: @h5-font-size; }
+h6 { font-size: @h6-font-size; }
+
+img {
+  max-width: 100%;
+}

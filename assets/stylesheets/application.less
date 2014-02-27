@@ -1,278 +1,41 @@
+//-----------------------------------------------------------------------------
+// Normalize ( by Nicolas Gallagher)
+//-----------------------------------------------------------------------------
+
 @import (less) "../../bower_components/normalize-css/normalize.css";
-@import "syntax.less";
-
-@base-font-size: 1em;
-@base-line-height: 1.5;
-
-@base-size: @base-font-size * @base-line-height; // 1.5em
-
-@h1-font-size: 2em;
-@h2-font-size: 1.75em;
-@h3-font-size: 1.375em;
-@h4-font-size: 1.25em;
-@h5-font-size: 1.125em;
-@h6-font-size: 1em;
-
-@header-line-height: 1.1;
-
-@size-six:      @base-size * 6; // 9em
-@size-five:     @base-size * 5; // 7.5em
-@size-four:     @base-size * 4; // 6em
-@size-three:    @base-size * 3; // 4.5em
-@size-two:      @base-size * 2; // 3em
-
-@size-half:     @base-size / 2; // 0.75em
-@size-third:    @base-size / 3; // 0.5em
-@size-quarter:  @base-size / 4; // 0.375em
-
-@breakpoint1: 20em;
-@breakpoint2: 40em;
-@breakpoint3: 60em;
-
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
-body {
-  line-height: @base-line-height;
-}
-
-p, ul, ol, dl, table {
-  padding: 0;
-  margin: 0 0 @base-size;
-}
-
-blockquote, li {
-  margin: 0 0 0 @base-size;
-}
-
-h1,h2,h3,h4,h5,h6 {
-  line-height: @header-line-height;
-  font-weight: 800;
-  margin-top: @base-size;
-  margin-bottom: @size-quarter;
-}
-
-h1 { font-size: @h1-font-size; }
-h2 { font-size: @h2-font-size; }
-h3 { font-size: @h3-font-size; }
-h4 { font-size: @h4-font-size; }
-h5 { font-size: @h5-font-size; }
-h6 { font-size: @h6-font-size; }
-
-img {
-  max-width: 100%;
-}
 
 //-----------------------------------------------------------------------------
-// Excerpt
+// Variables
 //-----------------------------------------------------------------------------
 
-.excerpt {
-  max-width: 77em;
-  margin: 0 auto;
-  padding: @base-size;
-}
-
-.excerpt__date,
-.excerpt__title,
-.excerpt__author {
-  margin: 0;
-  text-transform: uppercase;
-}
-
-.excerpt__date {}
-.excerpt__title {}
-.excerpt__author {
-  font-size: @base-font-size;
-  line-height: @base-line-height;
-}
-
-.excerpt__title {
-  font-size: @h3-font-size;
-  margin: 0.3636em 0; // baseline correction
-  a {
-    text-decoration: none;
-  }
-  @media (min-width: @breakpoint2) {
-    font-size: @h1-font-size;
-    margin: 0.25em 0; // baseline correction
-  }
-}
+@import "variables.less";
 
 //-----------------------------------------------------------------------------
-// Article base and shared blocks
-//-----------------------------------------------------------------------------
-.article {}
-
-.article__header,
-.article__body,
-.article__footer {
-  margin-bottom: @base-size;
-  @media (min-width: @breakpoint1) {
-    margin-bottom: @size-two;
-  }
-  @media (min-width: @breakpoint2) {
-    margin-bottom: @size-four;
-  }
-  @media (min-width: @breakpoint3) {
-    margin-bottom: @size-six;
-  }
-}
-
-.article__header__text,
-.article__body,
-.article__footer {
-  padding: @base-size;
-}
-
-// Article header
-//-----------------------------------------------------------------------------
-.article__header {}
-
-.article__header__image {
-  .group;
-  height: 20em;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  @media (min-width: @breakpoint1) {
-    height: 30em;
-    margin-bottom: @size-two;
-  }
-  @media (min-width: @breakpoint2) {
-    height: 40em;
-    margin-bottom: @size-four;
-  }
-  @media (min-width: @breakpoint3) {
-    height: 50em;
-    margin-bottom: @size-six;
-  }
-}
-
-.article__header__image__image {
-  float: left;
-  width: 100%;
-}
-
-.article__header__text__label {
-  border: 2px solid black;
-  padding: @size-quarter @size-half;
-  text-transform: uppercase;
-}
-
-.article__header__text__title {
-  margin: 0;
-  @media (min-width: @breakpoint1) {
-    font-size: @size-two;
-  }
-  @media (min-width: @breakpoint2) {
-    font-size: @size-three;
-  }
-}
-
-// Article body
-//-----------------------------------------------------------------------------
-.article__body {}
-
-.article__body__lead {
-  font-size: @h5-font-size;
-  line-height: 1.333333333; // baseline correction
-  margin-bottom: 1.333333333em; // baseline correction
-}
-
-.article__body {
-  max-width: 37em;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-// Article footer
-//-----------------------------------------------------------------------------
-.article__footer {}
-
-.article__footer__text { // temp class
-  font-size: @size-half;
-  line-height: 2; // baseline correction
-}
-
-//-----------------------------------------------------------------------------
-// Article modifyers
+// Base
 //-----------------------------------------------------------------------------
 
-// Article with featured image
+@import "base.less";
+
+//-----------------------------------------------------------------------------
+// Excerpts
 //-----------------------------------------------------------------------------
 
-.article--has-image {
-  .article__header {
-    @media (min-width: @breakpoint3) {
-      position: relative;
-      .article__header__text {
-        position: absolute;
-        bottom: @size-six;
-        width: 100%;
-      }
-    }
-  }
-}
+@import "excerpts.less";
 
-// Article body with four columns
 //-----------------------------------------------------------------------------
-.article__body--has-four-columns {
-  @media (min-width: @breakpoint2) {
-    max-width: 80em;
-    column-count: 2;
-    column-gap: @base-size;
-    h1,h2,h3,h4,h5,h6 {
-      font-size: @base-font-size;
-      line-height: @base-line-height;
-      margin: 0;
-      text-transform: uppercase;
-    }
-    h2 {
-      font-size: @h4-font-size;
-      line-height: 1.2; // baseline correction
-    }
-    .article__body__lead {
-      font-size: 1em;
-      line-height: 1.5;
-      margin-bottom: 1.5em;
-      &:first-letter {
-        float: left;
-        font-size: 3em;
-        line-height: 1;
-        font-weight: 800;
-        margin-right: 0.1em;
-      }
-    }
-  }
-  @media (min-width: @breakpoint3) {
-    column-count: 4;
-  }
-}
+// Articles
+//-----------------------------------------------------------------------------
+
+@import "articles.less";
 
 //-----------------------------------------------------------------------------
 // Helpers
 //-----------------------------------------------------------------------------
 
-// Text
-//-----------------------------------------------------------------------------
-.center {
-  text-align: center;
-}
+@import "helpers.less";
 
-// Clearfix
 //-----------------------------------------------------------------------------
-.group {
-  &:before,
-  &:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-  }
-  &:after {
-    clear: both;
-  }
-}
+// Syntax (original from Jekyll)
+//-----------------------------------------------------------------------------
+
+@import "syntax.less";

@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+{% assign author = site.authors[page.author] %}
+
+<article class="  article--four-columns
+                  {% if page.vimeo %}
+                    article--has-video
+                  {% elsif page.youtube %}
+                    article--has-video
+                  {% elsif page.image %}
+                    article--has-image
+                  {% endif %}   ">
+  <header class="article--four-columns__header">
+    {% if page.vimeo %}
+      <div class="article--four-columns__header__video">
+        <iframe src="//player.vimeo.com/video/{{ page.vimeo }}?title=0&amp;byline=0&amp;portrait=0&amp;color=000000" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    {% elsif page.youtube %}
+      <div class="article--four-columns__header__video">
+        <iframe src="//www.youtube.com/embed/{{ page.youtube }}?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+      </div>
+    {% elsif page.image %}
+      <div class="article--four-columns__header__image" style="background-image: url('{{ site.baseurl }}/media/{{ page.image }}');">
+        <!-- Modernizer, detect css3 support and hide image if true <img class="article--four-columns__header__image__image" src="{{ site.baseurl }}/media/{{ page.image }}" alt=""> -->
+      </div>
+    {% endif %}
+    <div class="article--four-columns__header__text center">
+      {% if page.label %}
+        <p><span class="article--four-columns__header__text__label">{{ page.label }}</span></p>
+      {% endif %}
+      <h1 class="article--four-columns__header__text__title ">{{ page.title }}</h1>
+    </div>
+  </header>
+  <div class="article--four-columns__body">
+    {% if page.subtitle %}<p class="article--four-columns__body__lead">{{ page.subtitle }}</p>{% endif %}
+    {{ content }}
+  </div>
+  <footer class="article--four-columns__footer">
+    <p class="article--four-columns__footer__text center">Publicerat den {{ page.date | date: '%Y-%m-%d' }} av {{ author.name }}.</p>
+  </footer>
+</article>

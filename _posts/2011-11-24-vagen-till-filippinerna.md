@@ -1,16 +1,19 @@
 ---
-layout: post
+layout: four-columns
 title: Vägen till Filippinerna
+label: Sol & Gött
 categories:
-  - filippinerna
-  - sydkorea
+- filippinerna
+- sydkorea
 author: gustaf
 image: vagen-till-filippinerna.jpg
+subtitle: Hej! Som många av er vet har vi tagit en semester från Seoul med destination Sabang Beach på ön Mindoro i Filippinerna.
 ---
 
-Hej! Som många av er vet har vi tagit en semester från Seoul med destination Sabang Beach på ön Mindoro i Filippinerna.
-
 Beslutet om att åka till detta “Paradis” tog vi på en höft över ett glas vin någon kväll för ett tag sedan. Det va inte så mycket mer med det, vi bestämde en göttig turistort och bestämde oss för att boka flyg och hotell.
+
+*__Uppdatering:__ [Man ska inte klaga]({{ site.baseurl }}{% post_url 2011-12-13-man-ska-inte-klaga %}) är fortsättningen på detta inlägget.*
+
 Efter lite trubbel med olika hemsidor hade vi bokat dessa båda nödvändigheter och “date of departure” vart satt till den 11:e november. Efter många “om och mail” med ett företag som kallar sig “Super Saver Travel” får vi reda på att China Southern Airlines bestämt att flytta våran resa 1 dag fram.
 
 Så den 12 november drar vi två blekfisar iväg till Seouls, Incheon International Airport. Här är rullbanden längre, våningarna flera och Svenskarna få. Allt är HI-tech och super fresh. Hursom checkar vi in och sminket får en etikett där det står Manila International Airport.
@@ -49,5 +52,3 @@ Ungefär 45min in på den 1.5 timma långa färden börjar det dock gå lite sj�
 Skitsamma säger vi och berättar vart vi skall bo, vi är båda helt sjöblöta   och trötta efter båtresan och vill bara komma till hotellet äta och lägga oss. Sagt och gjort är vi i säng på hotellet och på några sekunder somnar vi och laddar för den kommande dagen!
 
 Så jag ska bara knåpa klart nästa inlägg så får ni oxå se hur det var och så ska vi bjuda på lite mera bilder kanske, blev lite fattigt med den varan i detta inlägg :).
-
-*__Uppdatering:__ [Man ska inte klaga]({{ site.baseurl }}{% post_url 2011-12-13-man-ska-inte-klaga %}) är fortsättningen på detta inlägget.*

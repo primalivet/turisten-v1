@@ -3,7 +3,7 @@ safe: true
 lsi: false
 pygments: true
 baseurl: /turisten
-exclude: [node_modules, bower_components, assets/javascripts, assets/stylesheets]
+exclude: [node_modules, bower_components, assets/javascripts, assets/stylesheets, rakefile.rb, Gruntfile.js, bower.json, package.json]
 permalink: /:year/:month/:title
 timezone: Europe/Stockholm
 paginate: 15

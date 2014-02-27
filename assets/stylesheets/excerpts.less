@@ -1,0 +1,52 @@
+//-----------------------------------------------------------------------------
+// Excerpt
+//-----------------------------------------------------------------------------
+
+.excerpt {
+  max-width: 80em;
+  margin: 0 auto;
+  padding: @base-size;
+  border-top: 1px solid #dedede; //temp color
+  &:last-of-type {
+    border-bottom: 1px solid #dedede; //temp color
+  }
+}
+
+.excerpt__date,
+.excerpt__title,
+.excerpt__author {
+  margin: 0;
+  text-transform: uppercase;
+  @media (min-width: @breakpoint3) {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.excerpt__date {}
+
+.excerpt__title {
+  font-size: @h3-font-size;
+  margin: 0.3636em 0; // baseline correction
+  a {
+    text-decoration: none;
+    color: #000; //temp color
+  }
+  @media (min-width: @breakpoint2) {
+    font-size: @h1-font-size;
+    margin: 0.25em 0; // baseline correction
+  }
+  @media (min-width: @breakpoint3) {
+    max-width: 70%;
+    margin: 0;
+    padding: 0 0.75em; // baseline correction
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+.excerpt__author {
+  font-size: @base-font-size;
+  line-height: @base-line-height;
+}
