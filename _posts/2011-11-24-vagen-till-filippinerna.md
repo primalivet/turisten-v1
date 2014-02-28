@@ -1,16 +1,14 @@
 ---
-layout: four-columns
+layout: four-column
 title: Vägen till Filippinerna
-label: Sol & Gött
 categories:
 - filippinerna
 - sydkorea
 author: gustaf
 image: vagen-till-filippinerna.jpg
-subtitle: Hej! Som många av er vet har vi tagit en semester från Seoul med destination Sabang Beach på ön Mindoro i Filippinerna.
 ---
 
-Beslutet om att åka till detta “Paradis” tog vi på en höft över ett glas vin någon kväll för ett tag sedan. Det va inte så mycket mer med det, vi bestämde en göttig turistort och bestämde oss för att boka flyg och hotell.
+Hej! Som många av er vet har vi tagit en semester från Seoul med destination Sabang Beach på ön Mindoro i Filippinerna. Beslutet om att åka till detta “Paradis” tog vi på en höft över ett glas vin någon kväll för ett tag sedan. Det va inte så mycket mer med det, vi bestämde en göttig turistort och bestämde oss för att boka flyg och hotell.
 
 *__Uppdatering:__ [Man ska inte klaga]({{ site.baseurl }}{% post_url 2011-12-13-man-ska-inte-klaga %}) är fortsättningen på detta inlägget.*
 

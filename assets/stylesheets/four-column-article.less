@@ -1,0 +1,179 @@
+// //-----------------------------------------------------------------------------
+// // Article
+// //-----------------------------------------------------------------------------
+
+// .article {}
+// .article__header {}
+// .article__header__image {}
+// .article__header__text {}
+// .article__header__text__title {}
+// .article__header__text__label {}
+// .article__body {}
+// .article__body__lead {}
+// .article__footer {}
+// .article__footer__text {}
+
+// // Article shared
+// //-----------------------------------------------------------------------------
+
+// //-----------------------------------------------------------------------------
+// // Article with four columns
+// //-----------------------------------------------------------------------------
+
+// .article--four-columns {
+//   margin-top: @base-size;
+//   @media (min-width: @breakpoint1) {
+//     margin-top: @size-two;
+//   }
+//   @media (min-width: @breakpoint2) {
+//     margin-top: @size-four;
+//   }
+//   @media (min-width: @breakpoint3) {
+//     margin-top: @size-six;
+//   }
+// }
+
+// .article--four-columns__header {}
+
+// .article--four-columns__header__video {}
+
+// .article--four-columns__header__image {
+//   .group;
+//   height: 20em;
+//   background-position: center center;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   @media (min-width: @breakpoint1) {
+//     height: 30em;
+//     margin-bottom: @size-two;
+//   }
+//   @media (min-width: @breakpoint2) {
+//     height: 40em;
+//     margin-bottom: @size-four;
+//   }
+//   @media (min-width: @breakpoint3) {
+//     height: 50em;
+//     margin-bottom: @size-six;
+//   }
+// }
+
+// .article--four-columns__header__image__image {
+//   float: left;
+//   width: 100%;
+// }
+
+// .article--four-columns__header__text {}
+
+// .article--four-columns__header__text__label {
+//   padding: @size-quarter @size-half;
+//   text-transform: uppercase;
+//   border-width: 3px;
+//   border-style: solid;
+// }
+
+// .article--four-columns__header__text__title {
+//   margin: 0;
+//   @media (min-width: @breakpoint1) {
+//     font-size: @size-two;
+//   }
+//   @media (min-width: @breakpoint2) {
+//     font-size: @size-three;
+//   }
+// }
+
+// .article--four-columns__body {
+//   max-width: 37em;
+//   margin-left: auto;
+//   margin-right: auto;
+//   @media (min-width: @breakpoint2) {
+//     max-width: 80em;
+//     column-count: 2;
+//     column-gap: @base-size;
+//     h1,h2,h3,h4,h5,h6 {
+//       font-size: @base-font-size;
+//       line-height: @base-line-height;
+//       margin: 0;
+//       text-transform: uppercase;
+//     }
+//     h2 {
+//       font-size: @h4-font-size;
+//       line-height: 1.2; // baseline correction
+//     }
+//   }
+//   @media (min-width: @breakpoint3) {
+//     column-count: 4;
+//   }
+// }
+
+// .article--four-columns__body__lead {
+//   font-size: @h5-font-size;
+//   line-height: 1.333333333; // baseline correction
+//   margin-bottom: 1.333333333em; // baseline correction
+//   @media (min-width: @breakpoint2) {
+//     font-size: 1em;
+//     line-height: 1.5;
+//     margin-bottom: 1.5em;
+//     &:first-letter {
+//       float: left;
+//       font-size: 3em;
+//       line-height: 1;
+//       font-weight: 800;
+//       margin-right: 0.1em;
+//     }
+//   }
+// }
+
+// .article--four-columns__footer {}
+
+// .article--four-columns__footer__text {
+//   font-size: @size-half;
+//   line-height: 2; // baseline correction
+// }
+
+// // Article with four columns shared
+// //-----------------------------------------------------------------------------
+
+// .article--four-columns__header,
+// .article--four-columns__body,
+// .article--four-columns__footer {
+//   margin-bottom: @base-size;
+//   @media (min-width: @breakpoint1) {
+//     margin-bottom: @size-two;
+//   }
+//   @media (min-width: @breakpoint2) {
+//     margin-bottom: @size-four;
+//   }
+//   @media (min-width: @breakpoint3) {
+//     margin-bottom: @size-six;
+//   }
+// }
+
+// .article--four-columns__header__text,
+// .article--four-columns__body,
+// .article--four-columns__footer {
+//   padding: @base-size;
+// }
+
+// // Article with four columns modifyers
+// //-----------------------------------------------------------------------------
+
+// .article--four-columns {
+//   // Controls layout IF the post has a yaml "image: filename.ext"
+//   &.article--has-image {
+//     margin-top: 0;
+//     .article--four-columns__header {
+//       @media (min-width: @breakpoint3) {
+//         position: relative;
+//         .article--four-columns__header__text {
+//           position: absolute;
+//           bottom: @size-six;
+//           width: 100%;
+//         }
+//       }
+//     }
+//   }
+//   // Controls layout IF the post has a yaml "vimeo: ID" or "youtube: ID"
+//   &.article--has-video {
+//     margin-top: 0;
+//   }
+// }
