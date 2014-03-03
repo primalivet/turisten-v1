@@ -465,7 +465,7 @@ img {
   background-repeat: no-repeat;
   height: 15em;
 }
-@media (min-width: 20em) {
+@media (min-width: 21em) {
   .article__media .fluid-width-image-wrapper {
     height: 25em;
   }
@@ -483,7 +483,7 @@ img {
 .article__media .fluid-width-video-wrapper {
   max-height: 15em;
 }
-@media (min-width: 20em) {
+@media (min-width: 21em) {
   .article__media .fluid-width-video-wrapper {
     max-height: 25em;
   }

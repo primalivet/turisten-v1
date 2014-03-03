@@ -5,32 +5,8 @@ layout: default
 {% assign author = site.authors[page.author] %}
 
 <article class="article article--image">
-
-  {% if page.image or page.vimeo or page.youtube %}
-    <div class="article__media">
-      {% if page.image %}
-        <div class="fluid-width-image-wrapper" style="background-image: url('{{ site.baseurl }}/media/{{ page.image }}');">
-          <!-- <img src="{{ site.baseurl }}/media/{{ page.image }}"> -->
-        </div>
-      {% elsif page.vimeo %}
-        <iframe src="//player.vimeo.com/video/{{ page.vimeo }}?title=0&amp;byline=0&amp;portrait=0&amp;color=000000" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      {% elsif page.youtube %}
-        <iframe src="//www.youtube.com/embed/{{ page.youtube }}?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
-      {% endif %}
-    </div>
-  {% endif %}
-
-  <header class="article__header">
-    <h1>{{ page.title }}</h1>
-  </header>
-
-  <div class="article__body">
-    {{ content }}
-  </div>
-
-  <footer class="article__footer">
-    <img src="{{ site.baseurl }}/media/{{ author.avatar }}" alt="">
-    <p>Publicerat: {{ page.date | date: '%Y-%m-%d' }} <br> av {{ author.name }}.</p>
-  </footer>
-
+  {% include article__media.html %}
+  {% include article__header.html %}
+  {% include article__body.html %}
+  {% include article__footer.html %}
 </article>
