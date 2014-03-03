@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: half-half
 title: Chungju Lake
 author: linn
 categories:
   - sydkorea
+image: chungju-lake-3.jpg
 ---
 
 Att korea är ett väldigt litet land förstår man när man får reda på att det egentligen bara finns en enda provins som inte gränsar till hav på någon sida. Denna provinsen heter Chungcheongbuk-do och har istället för kustremsor och storstad mycket annat att bjuda på. Mest känd är den för sin vackra natur då i synnerhet den sjö som bildats i dalen av alla berg. Namnet på denna omtalade sjö är Chungju lake och dit begav vi oss förra söndagen för att, över en dag, rymma storstadsbullret. Efter en halvtimma med tuben och två och en halv timma med buss nådde vi Chungju resecentrum. En jättelik skylt märkt med “Tourist Information” mötte oss, Yes tänkte vi, nu får vi hjälp att hitta till sjön.
@@ -18,13 +19,13 @@ Då blev Gustaf såhär glad:
 
 ![]({{ site.baseurl }}/media/chungju-lake-2.jpg)
 
-<iframe src="//player.vimeo.com/video/30188941?title=0&amp;byline=0&amp;portrait=0&amp;color=000000" width="500" height="375" frameborder="0"> </iframe>
+<p><iframe src="//player.vimeo.com/video/30188941?title=0&amp;byline=0&amp;portrait=0&amp;color=000000" width="500" height="375" frameborder="0"> </iframe></p>
 
 Och med den korenska flaggan i topp begav vi oss ut på okänt vatten..
 
 ![]({{ site.baseurl }}/media/chungju-lake-3.jpg)
 
-<iframe src="//player.vimeo.com/video/30189213?title=0&amp;byline=0&amp;portrait=0&amp;color=000000" width="500" height="281" frameborder="0"> </iframe>
+<p><iframe src="//player.vimeo.com/video/30189213?title=0&amp;byline=0&amp;portrait=0&amp;color=000000" width="500" height="281" frameborder="0"> </iframe></p>
 
 ![]({{ site.baseurl }}/media/chungju-lake-4.jpg)
 

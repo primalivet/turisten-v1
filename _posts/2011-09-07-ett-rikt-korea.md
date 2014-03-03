@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: half-half
 title: Ett rikt Korea
 author: linn
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: image
 title: Midterm Exams
 author: linn
 categories:

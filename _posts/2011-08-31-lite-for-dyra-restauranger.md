@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: image
 title: Lite för dyra restauranger
 author: linn
 categories:

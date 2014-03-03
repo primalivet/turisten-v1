@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: image
 title: Drinkar på 33:e våningen
 author: linn
 categories:

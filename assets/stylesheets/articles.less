@@ -47,7 +47,12 @@
 .article__footer {
   text-align: center;
 }
-.article__body {}
+.article__body {
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
 
 .article__footer {}
 
@@ -92,8 +97,37 @@
       top: 0;
       left: 0;
       bottom: 0;
-      height: 100%;
       width: 50%;
+      .fluid-width-image-wrapper {
+        height: 100%;
+      }
+    }
+  }
+}
+
+//-----------------------------------------------------------------------------
+// Article - Image
+//-----------------------------------------------------------------------------
+
+.article--image {
+  @media (min-width: @breakpoint3) {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 33.3333%;
+    overflow: auto;
+    background-color: rgba(255,255,255,.4); // temo color
+    .article__media {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+      .fluid-width-image-wrapper {
+        height: 100%;
+      }
     }
   }
 }

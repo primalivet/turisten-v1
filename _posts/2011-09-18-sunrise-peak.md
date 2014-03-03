@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: half-half
 title: Sunrise Peak
 author: linn
 categories:
   - sydkorea
+image: sunrise-peak-3.jpg
 ---
 
 HejHopp nu kommer en liten uppdatering till från våran Thanksgiving på Jeju-island. De tre populäraste besöksmålen på Jeju är Cheonjeyeon Falls, som vi redan redogjort för, Sunrise Peak, och Manjanggul Cave. Manjanggul Cave är en av världens längsta lava-tunnlar och vi såg verkligen fram emot att få besöka den, dock hade vi oturen att pricka in dagen efter storm som besöksdag och grottan var översvämmad av allt regn. Sunrise Peak, ett typ av berg som kommit till efter ett vulkanutbrott på grunt vatten är belägrat ca 500 m över havet och verkade tämligen oberörd av ovädret så vi snurrade på oss vandringsskorna (läs converse/vans) och begav oss ut på äventyr. Typ såhär såg det ut:

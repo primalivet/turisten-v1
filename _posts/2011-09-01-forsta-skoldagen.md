@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: image
 title: Första skoldagen
 author: linn
 categories:

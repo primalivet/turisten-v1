@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: image
 title: Vad gör Gustaf om dagarna?
 author: linn
 categories:

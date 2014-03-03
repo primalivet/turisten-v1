@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: image
 title: Extremt konstigt och roligt
 author: linn
 categories:

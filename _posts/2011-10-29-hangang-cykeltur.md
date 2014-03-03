@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: half-half
 title: Hangang cykeltur
 author: linn
 categories:
   - sydkorea
+image: hangang-cykeltur-4.jpg
 ---
 
 Hejhej! Här kommer en liten uppdatering för er som håller modet uppe och fortfarande besöker bloggen. I tisdags skrevs sista midterm-tentan och det firade vi med att promenera till Yeouido som ligger vid Han-river för att där hyra cyklar och ge oss ut på en tur i skolskenet.

@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: half-half
 title: Cheonjeyeon Falls
 author: gustaf
 categories:
   - sydkorea
+image: cheonjeyeon-falls-4.jpg
 ---
 
 Helgen som varit bjöd på koreansk Thanks-giving, eller Chuseouk som det koreanska namnet är. Det är den största högtidshelgen här vilket innebär att även en 25-miljonstad som Seoul går i ide. Vi bestämde oss för att ta tillfälle i akt att besöka den beryktade Jeju Island som finns med på UNESCOs lista över världsnaturarv och ska vara typ Koreas Hawaii. Koreanerna klappar sig stolt på bröstet över denna lilla ö som är gjord av vulkanmassa och som blivit nominerad till att vara med på den nya lista över världens 7 underverk.

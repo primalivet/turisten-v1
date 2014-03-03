@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: image
 title: Gustaf har lämnat landet
 author: linn
 categories:

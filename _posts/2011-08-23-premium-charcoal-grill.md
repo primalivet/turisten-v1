@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: four-column
 title: Premium Charcoal Grill
 author: gustaf
 categories:

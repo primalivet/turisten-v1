@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: half-half
 title: Dobongsan Mountain
 author: gustaf
 categories:
   - sydkorea
+image: dobongsan-mountain-4.jpg
 ---
 
 Som bekant för några av er har vi ställt till med en “del två” av bergsbestigning. Denna gången var nog anledningen, till stordel, mersmak från Sunrise Peak på Jeju island.
@@ -48,7 +49,7 @@ Som ett sista energiryck i en rad av många hugger vi tag i repet och drar oss u
 
 Det är heeelt sanslöst gött att vara uppe! Och så fint det är, helt lugnt och man ser flera olika städer och berg som ligger omkring Seoul! En känsla jag kommer lämna er utan då det inte riktigt fastnar på bild ;).
 
-<iframe src="//player.vimeo.com/video/29526631?title=0&amp;byline=0&amp;portrait=0&amp;color=000000" width="500" height="281" frameborder="0"> </iframe>
+<p><iframe src="//player.vimeo.com/video/29526631?title=0&amp;byline=0&amp;portrait=0&amp;color=000000" width="500" height="281" frameborder="0"> </iframe></p>
 
 ![]({{ site.baseurl }}/media/dobongsan-mountain-4.jpg)
 
