@@ -2,7 +2,7 @@ name: Turisten
 safe: true
 lsi: false
 pygments: true
-baseurl: /turisten
+baseurl: /turisten-v1
 exclude: [node_modules, bower_components, assets/javascripts, assets/stylesheets, rakefile.rb, Gruntfile.js, bower.json, package.json]
 permalink: /:year/:month/:title
 timezone: Europe/Stockholm
